@@ -1,0 +1,27 @@
+// app global css in SCSS form
+::-webkit-scrollbar {
+    // background-color:#fff;
+    width:4px
+}
+
+/* background of the scrollbar except button or resizer */
+// ::-webkit-scrollbar-track {
+//     background-color:#fff
+// }
+// ::-webkit-scrollbar-track:hover {
+//     background-color:#f4f4f4
+// }
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+    background-color:#babac0;
+    border-radius:8px;
+    border:2px solid #0000
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+    border:2px solid #0000
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}

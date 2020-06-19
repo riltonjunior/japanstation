@@ -1,0 +1,51 @@
+// 20200608162146
+// http://localhost:1337/groups
+
+[
+    {
+      "id": 1,
+      "name": "Netflix",
+      "typeTitles": "anime",
+      "releaseType": "streaming",
+      "urlSite": "http://netflix.com.br/",
+      "urlTracker": null,
+      "urlIRC": null,
+      "urlStreaming": "http://netflix.com.br/",
+      "accept": true,
+      "created_at": "2020-06-08T18:09:23.288Z",
+      "updated_at": "2020-06-08T18:09:23.288Z",
+      "releases": [
+        
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Crunchyroll",
+      "typeTitles": "anime",
+      "releaseType": "streaming",
+      "urlSite": "https://www.crunchyroll.com/",
+      "urlTracker": null,
+      "urlIRC": null,
+      "urlStreaming": "https://www.crunchyroll.com/videos/anime",
+      "accept": true,
+      "created_at": "2020-06-08T18:10:51.264Z",
+      "updated_at": "2020-06-08T18:10:51.264Z",
+      "releases": [
+        {
+          "id": 2,
+          "title": 21,
+          "episode": 929,
+          "transmission": "web",
+          "quality": "fullhd",
+          "type": "streaming",
+          "created_at": "2020-06-08T18:12:08.221Z",
+          "updated_at": "2020-06-08T18:13:10.886Z",
+          "watchStreaming": "https://www.crunchyroll.com/one-piece/episode-929-the-bond-between-prisoners-luffy-and-old-man-hyo-794472",
+          "downloadLink": null,
+          "downloadTorrent": null,
+          "downloadIRC": null,
+          "accept": true
+        }
+      ]
+    }
+  ]

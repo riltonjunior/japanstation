@@ -1,0 +1,50 @@
+{
+  "name": "japanstation",
+  "version": "0.0.1",
+  "description": "An anime and manga release tracker made with Quasar Framework.",
+  "productName": "Japanstation",
+  "cordovaId": "org.rilton.japanstation.app",
+  "capacitorId": "",
+  "author": "Rilton Leão <riltonjunior@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "server": "json-server --watch api/db.json",
+    "quasar": "quasar dev",
+    "dev": "npm run server & npm run quasar"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "firebase": "^7.15.0",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.0.0",
+    "vuex-map-fields": "^1.4.0",
+    "vuexfire": "^3.2.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "json-server": "^0.16.1"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}
